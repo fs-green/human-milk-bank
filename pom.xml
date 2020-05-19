@@ -30,7 +30,7 @@
         <module>human-milk-bank-domainmodel</module>
         <module>human-milk-bank-dbrepo</module>
         <module>human-milk-bank-business</module>
-        <module>human-milk-bank-ui</module>
+<!--        <module>human-milk-bank-frontend</module>-->
     </modules>
 
     <properties>
