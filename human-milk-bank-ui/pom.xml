@@ -9,61 +9,10 @@
     <artifactId>human-milk-bank-ui</artifactId>
 
     <dependencies>
-        <!-- Internal Maven Modules -->
-        <dependency>
-            <groupId>at.humanmilkbank</groupId>
-            <artifactId>human-milk-bank-domainmodel</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>at.humanmilkbank</groupId>
-            <artifactId>human-milk-bank-business-impl</artifactId>
-        </dependency>
         <!-- Maven Dependencies -->
         <dependency>
             <groupId>net.rgielen</groupId>
             <artifactId>javafx-weaver-spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-        </dependency>
-        <!-- OpenJFX -->
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx</artifactId>
-            <type>pom</type>
-        </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-controls</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-graphics</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-fxml</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-base</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-media</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-swing</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>javax.annotation</groupId>
-            <artifactId>javax.annotation-api</artifactId>
         </dependency>
     </dependencies>
 
