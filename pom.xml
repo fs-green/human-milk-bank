@@ -120,7 +120,7 @@
     <dependencyManagement>
         <dependencies>
             <!-- Internal Maven Modules -->
-            <!-- <dependency>
+            <dependency>
                 <groupId>at.humanmilkbank</groupId>
                 <artifactId>human-milk-bank-domainmodel</artifactId>
                 <version>${project.version}</version>
@@ -144,7 +144,7 @@
                 <groupId>at.humanmilkbank</groupId>
                 <artifactId>human-milk-bank-dbrepo-impl</artifactId>
                 <version>${project.version}</version>
-            </dependency>-->
+            </dependency>
             <!-- Maven Dependencies -->
             <dependency>
                 <groupId>net.rgielen</groupId>
