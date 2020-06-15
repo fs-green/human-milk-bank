@@ -10,6 +10,12 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body class="mat-typography">
+  <!-- Innerhalb des <body>-Tags wird der sogenannte Bootstrap-Vorgang ausgelöst. Konkret: -->
   <app-root></app-root>
+  <!--Die selector-Konfiguration der AppComponent-Komponente sorgt ihrerseits dafür, dass an dieser Stelle die
+      Komponente gerendert wird. Der <body>-Tag wird nach erfolgreichem Laden der Komponente ersetzt.
+      Achten Sie darauf, dass innerhalb der index.html-Datei kein <script>-Tag für die Einbindung von
+      JavaScript notwendig ist. Auch die Script-Anweisung wird gewissermaßen erst während des Builds der Anwendung
+      dynamisch in die HTML-Datei eingefügt.-->
 </body>
 </html>
